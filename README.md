@@ -9,7 +9,8 @@ module.
 
 ## Usage
 
-> [!NOTE] As library all runtime supported.
+> [!NOTE]
+> As library all runtime supported.
 
 ```ts
 import { hello } from '@despacito/hello/';
@@ -18,7 +19,8 @@ console.log(hello()); //> Hello World!
 console.log(hello('Alice')); //> Hello Alice!
 ```
 
-> [!WARNING] As cli/application only works with Deno.
+> [!WARNING]
+> As cli/application only works with Deno.
 
 ```bash
 $ deno run jsr:@despacito/hello
