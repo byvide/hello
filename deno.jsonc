@@ -1,7 +1,7 @@
 {
 	// package
 	"name": "@despacito/hello",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"exports": "./mod.ts",
 	"imports": {
 		"$assert": "jsr:@std/assert@^1.0.0"
@@ -23,7 +23,7 @@
 	},
 	"fmt": {
 		"exclude": [
-			"LICENCE",
+			"LICENSE",
 			"**/*.lock*",
 			"**/*lock.*",
 			"_coverage/"
@@ -45,7 +45,7 @@
 	// JSR
 	"publish": {
 		"include": [
-			"LICENCE",
+			"LICENSE",
 			"README.md",
 			"deno.jsonc",
 			"mod.ts",
