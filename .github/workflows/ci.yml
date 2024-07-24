@@ -7,7 +7,7 @@ on:
     branches: [master]
 
 jobs:
-  build:
+  checks:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -23,11 +23,11 @@ jobs:
       - name: lint all code
         run: deno lint
 
-      - name: lint code documentation 
-        run: deno doc --lint mod.ts
-
       - name: run tests
         run: deno task test
+
+      - name: lint code documentation 
+        run: deno doc --lint mod.ts
 
       - name: dummy publish
         run: deno publish --dry-run
