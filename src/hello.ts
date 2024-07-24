@@ -6,12 +6,6 @@
  * @param {string} [name='World'] - The name of the person to greet.
  * @returns {string} The greeting message.
  */
-export function hello(name: string = 'World'): string {
-	const trimmedName = name.trim();
-
-	if (!trimmedName) {
-		return 'Hello World!';
-	}
-
-	return `Hello ${trimmedName}!`;
+export function hello(name?: string): string {
+	return name ?  "Hello " + name.trim() + "!" : "Hello World!";
 }
