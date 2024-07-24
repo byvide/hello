@@ -1,4 +1,4 @@
-# Contributing to @scope/package
+# Contributing
 
 If you found something to tweak, here’s what you need to know:
 
