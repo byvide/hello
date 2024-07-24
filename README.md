@@ -4,7 +4,7 @@
 [![JSR](https://jsr.io/badges/@despacito/hello)](https://jsr.io/@despacito/hello)
 [![JSR Score](https://jsr.io/badges/@despacito/hello/score)](https://jsr.io/@despacito/hello)
 
-A simple 'Hello World' project created to explore the Deno ecosystem and learn how to publish a
+A simple Hello World project created to explore the Deno ecosystem and learn how to publish a
 module.
 
 ## Usage
@@ -13,7 +13,7 @@ module.
 > As library all runtime supported.
 
 ```ts
-import { hello } from '@despacito/hello/';
+import { hello } from '@despacito/hello';
 
 console.log(hello()); //> Hello World!
 console.log(hello('Alice')); //> Hello Alice!
