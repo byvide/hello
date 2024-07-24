@@ -9,3 +9,6 @@
 
 # deno coverage output dir
 _coverage/
+
+# for local copies and temporary files
+_local/
