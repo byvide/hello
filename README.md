@@ -29,3 +29,9 @@ $ deno run jsr:@despacito/hello Alice Bob
 Hello Alice!
 Hello Bob!
 ```
+
+## Support
+
+If you find my work helpful and would like to support what I do, buying me a cup of ~~coffee~~ tea would be greatly appreciated.
+
+<a href="https://www.buymeacoffee.com/limeraven" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
